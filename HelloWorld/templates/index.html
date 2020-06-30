@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Present - Free Bootstrap 4 Template</title>
+    <title>微博虚假用户检测</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Free HTML5 Website Template by uicookies.com" />
@@ -20,7 +20,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark probootstrap-navabr-dark">
       <div class="container">
-        <a class="navbar-brand" href="/index">社交网络挖掘@2020</a>
+        <a class="navbar-brand" href="https://github.com/Cautiousss/Weibo">社交网络挖掘@2020</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-nav" aria-controls="probootstrap-nav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -60,7 +60,7 @@
         <div class="row mb-5 justify-content-center text-center">
           <div class="col-lg-8">
             <h2 class="probootstrap-heading">微博关键词</h2>
-              <p class="mb-5 lead">根据用户微博内容，统计词频，生成词云</p>
+              <p class="mb-5 lead">根据{{username}}微博内容，统计词频，生成词云</p>
               <img src={{ keyword_path }} width="400px" height="550px">
           </div>  
         </div>
@@ -84,7 +84,7 @@
     </section>
 
 
-  <section class="probootstrap-cover probootstrap-scene-0 probootstrap-bg-dark">
+  <section class="probootstrap-section probootstrap-scene-1 probootstrap-bg-dark">
         <div class="container">
           <div class="row align-items-center justify-content-center probootstrap-vh-75">
               <div class="col-md-6 text-center">
@@ -120,18 +120,16 @@
       -->
 
 
-
-      <section class="probootstrap-cover probootstrap-scene-0 probootstrap-bg-dark">
+      <section class="probootstrap-cover probootstrap-scene-0">
       <div class="container">
         <div class="row probootstrap-vh-100 align-items-center  text-md-left text-sm-center text-center">
-          <div class="col-md-6 order-md-2 order-1">
+          <div class="col-md-7 order-md-2 order-1">
             <img src={{ time_path }} class="img-fluid probootstrap-device-vertical-1" alt="Free Bootstrap 4 Template by uicookies.com">
           </div>
-          <div class="col-md-6 order-md-1 order-2">
+          <div class="col-md-5 order-md-1 order-2">
             <div class="probootstrap-text">
               <h1 class="probootstrap-heading probootstrap-stagger text-white mb-2">发文日期</h1>
-                <p class="mb-5 probootstrap-stagger lead">该用户在各月份发微博数量</p>
-
+                <p class="mb-5 probootstrap-stagger lead">{{username}}在各月份发微博数量</p>
             </div>
           </div>
         </div>
@@ -139,16 +137,16 @@
       </section>
 
 
-      <section class="probootstrap-cover probootstrap-scene-0">
+      <section class="probootstrap-section probootstrap-scene-1 probootstrap-bg-dark">
       <div class="container">
         <div class="row probootstrap-vh-100 align-items-center  text-md-left text-sm-center text-center">
-          <div class="col-md-6 order-md-1 order-2">
+          <div class="col-md-8 order-md-1 order-2">
             <img src={{ region_path }} width="800px" class="img-fluid probootstrap-device-vertical-1" alt="Free Bootstrap 4 Template by uicookies.com">
           </div>
-          <div class="col-md-6 order-md-2 order-1">
+          <div class="col-md-4 order-md-2 order-1">
             <div class="probootstrap-text">
               <h1 class="probootstrap-heading probootstrap-stagger text-white mb-2">关注关系地域可视化</h1>
-                <p class="mb-5 probootstrap-stagger lead">该用户部分粉丝和关注的人之间形成的地域关注网络</p>
+                <p class="mb-5 probootstrap-stagger lead">{{username}}部分粉丝和关注的人之间形成的地域关注网络</p>
 
             </div>
           </div>
@@ -156,119 +154,6 @@
         </div>
       </div>
     </section>
-
-
-    <!--
-    <section class="probootstrap-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-4 col-lg-6 col-md-6">
-            <div class="media mb-4">
-              <div class="probootstrap-icon"><span class="icon-fingerprint display-4"></span></div>
-              <div class="media-body">
-                <h5 class="mt-0">Free Bootstrap 4</h5>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-6 col-md-6">
-            <div class="media mb-4">
-              <div class="probootstrap-icon"><span class="icon-users display-4"></span></div>
-              <div class="media-body">
-                <h5 class="mt-0">For The Community</h5>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-6 col-md-6">
-            <div class="media mb-4">
-              <div class="probootstrap-icon"><span class="icon-chat display-4"></span></div>
-              <div class="media-body">
-                <h5 class="mt-0">Support For Templates</h5>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-4 col-lg-6 col-md-6">
-            <div class="media mb-4">
-              <div class="probootstrap-icon"><span class="icon-creative-commons display-4"></span></div>
-              <div class="media-body">
-                <h5 class="mt-0">Under CC 3.0 License</h5>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-6 col-md-6">
-            <div class="media mb-4">
-              <div class="probootstrap-icon"><span class="icon-tablet-mobile-combo display-4"></span></div>
-              <div class="media-body">
-                <h5 class="mt-0">100% Fully Responsive</h5>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-6 col-md-6">
-            <div class="media mb-4">
-              <div class="probootstrap-icon"><span class="icon-credit display-4"></span></div>
-              <div class="media-body">
-                <h5 class="mt-0">Donate To Us</h5>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-    
-    <section class="probootstrap-section probootstrap-bg-dark">
-      <div class="container">
-        <div class="row mb-5 justify-content-center text-center">
-          <div class="col-lg-8">
-            <h2 class="probootstrap-heading">People Says...</h2>
-            <p class="mb-5 lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          </div>  
-        </div>
-        <div class="row">
-          <div class="col-md">
-            <div class="media d-block mb-4 text-center">
-              <img src="/static/images/square-person_1.jpg" alt="" class="img-fluid mb-3 rounded-circle w-25">
-              <div class="media-body p-3">
-                <p class="mb-5">&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;</p>
-                <h5 class="mt-0">James Rogeer</h5>
-                <p>Invision</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="media d-block mb-4 text-center">
-              <img src="/static/images/square-person_2.jpg" alt="" class="img-fluid mb-3 rounded-circle w-25">
-              <div class="media-body p-3">
-                <p class="mb-5">&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&ldquo;</p>
-                <h5 class="mt-0">Craig Rose</h5>
-                <p>Google</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="media d-block mb-4 text-center">
-              <img src="/static/images/square-person_3.jpg" alt="" class="img-fluid mb-3 rounded-circle w-25">
-              <div class="media-body p-3">
-                <p class="mb-5">&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&ldquo;</p>
-                <h5 class="mt-0">Christian Rich</h5>
-                <p>Twitter</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-      -->
-
-
 
     {% endblock mainbody %}
 
