@@ -10,12 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53d7aebf-79f7-48e6-997c-b66c3ce95b6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/statics/images/内容特征.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/images/社会特征.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/images/结果.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/images/行为特征.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/地域_正常用户.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/地域_虚假用户.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/度分布.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/正常用户网络.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/正常词云.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/活跃时间.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/活跃时间2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/社交网络构建.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/虚假用户网络.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/虚假词云.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/images/f1_f2_f3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/images/数据集构建.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/intro.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/intro.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +92,9 @@
       <workItem from="1593360349346" duration="16000" />
       <workItem from="1593360377037" duration="7494000" />
       <workItem from="1593390132766" duration="2819000" />
-      <workItem from="1593416500216" duration="9701000" />
+      <workItem from="1593416500216" duration="9775000" />
+      <workItem from="1593440767535" duration="333000" />
+      <workItem from="1593441133416" duration="4935000" />
     </task>
     <servers />
   </component>
